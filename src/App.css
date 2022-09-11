@@ -36,3 +36,99 @@
     transform: rotate(360deg);
   }
 }
+.banner-card{
+  width: 100%;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+  height: 70vh;
+  color: white;
+  position: relative;
+}
+.banner-img{
+  height: 70vh;
+  width: 100%;
+}
+.bannerTitle{
+position: absolute;
+top: 45vh;
+left: 5vw;
+
+}
+.banner-text{
+  position: absolute;
+  top: 55vh;
+  left: 5vw;
+  height: 4.5rem;
+  overflow: hidden;
+  margin-right: 5vw;
+}
+
+.movie-img{
+  height:40vh;
+  width: 20vw;
+}
+.movies-list{
+display: flex;
+flex-wrap: wrap;
+padding: 1rem;
+justify-content: center;
+}
+.movie-card{
+width: 20vw;
+margin: 1rem;
+color: white;
+position: relative;
+}
+.movie-title{
+position: absolute;
+top: 1rem;
+left: 1rem;
+
+}
+.movie-button{
+position: absolute;
+bottom: 2rem;
+
+}
+.faviourites-list{
+  padding: 3rem;
+}
+.faviourites-table{
+  padding: 3rem;
+  overflow: auto;
+}
+
+@media screen and (max-width:400px){
+  .banner-card{
+     height: 30vh;
+    
+  }
+  .banner-img{
+    height:30vh;
+  }
+  .bannerTitle{
+    position: absolute;
+    top: 12vh;
+    left: 5vw;
+  }
+  .banner-text{
+    position: absolute;
+    top: 17vh;
+    left: 5vw;
+    
+  }
+  .movie-img{
+    /* height:40vh; */
+    width: 40vw;
+}
+
+.movie-card{
+  width: 40vw;
+  margin: 0.1rem;
+  
+}
+}
+
+
+
+  
